@@ -1,0 +1,9 @@
+[{
+	"relation": ["delegate_permission/common.handle_all_urls"],
+	"target": {
+		"namespace": "android_app",
+		"package_name": "jdpa.map.bo",
+		"sha256_cert_fingerprints":
+		["0F:25:88:6D:FF:B6:75:C8:4A:E4:9E:64:A5:17:0D:C5:B5:B8:B2:9C:DD:A8:78:D0:01:0D:2F:20:4A:F3:69:7A"]
+	}
+}]
