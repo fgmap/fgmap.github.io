@@ -5,17 +5,8 @@
 </head>
 <body>
 	<script type="text/javascript">
-		alert('hola moundo');
-		location.href='https://beeg.com';
-		openTab('https://beeg.com');
-		function openTab(url){
-			const link = document.createElement('a');
-			link.href = url;
-			link.target = '_blank';
-			document.body.appendChild(link);
-			link.click();
-			link.remove();
-		}
+		alert(location.href.split('?'));
+		//location.href='https://beeg.com';
 	</script>
 </body>
 </html>
