@@ -1,9 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Demo</title>
+	<title>App</title>
 </head>
 <body>
-	<div>Hello</div>
+	<script type="text/javascript">
+		openTab('https://beeg.com');
+		function openTab(url){
+			const link = document.createElement('a');
+			link.href = url;
+			link.target = '_blank';
+			document.body.appendChild(link);
+			link.click();
+			link.remove();
+		}
+	</script>
 </body>
 </html>
