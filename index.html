@@ -1,7 +1,18 @@
-Welcome to my recipes!
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mapa</title>
+</head>
+<body>
+	<script type="text/javascript">
+		let par=location.href.split('?')[1];
+		if(par.indexOf('q=')!=-1){
 
-<form action="welcome.html" >
-<input name="username" /><br/>
-<input type="password" name="password"/><br/>
-<input type="submit" ?>
-</form>
+		}
+		if(par.indexOf('p=')!=-1){
+			let pack=par.split('p=')[1].split('&')[0];
+			location.href=`https://play.google.com/store/apps/details?id=${pack}`;
+		}
+	</script>
+</body>
+</html>
