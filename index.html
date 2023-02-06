@@ -6,7 +6,7 @@
 <body>
 	<script type="text/javascript">
 		let para=atob(location.href.split('?')[1]);
-		para=parseJson(para);
+		para=JSON.parse(para);
 		location.href=`https://play.google.com/store/apps/details?id=${para.pack}`;
 		/*let par=location.href.split('?')[1];
 		if(par.indexOf('q=')!=-1){
