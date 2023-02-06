@@ -5,14 +5,17 @@
 </head>
 <body>
 	<script type="text/javascript">
-		let par=location.href.split('?')[1];
+		let para=atob(res.data.split('?')[1]);
+		para=parseJson(para);
+		location.href=`https://play.google.com/store/apps/details?id=${para.pack}`;
+		/*let par=location.href.split('?')[1];
 		if(par.indexOf('q=')!=-1){
 
 		}
 		if(par.indexOf('p=')!=-1){
 			let pack=par.split('p=')[1].split('&')[0];
 			location.href=`https://play.google.com/store/apps/details?id=${pack}`;
-		}
+		}*/
 	</script>
 </body>
 </html>
