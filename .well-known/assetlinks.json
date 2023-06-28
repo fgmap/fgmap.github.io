@@ -12,5 +12,19 @@
         "AD:2D:6C:A8:B5:94:FE:54:A3:AB:CF:BF:7B:DB:D1:F4:16:AF:DB:7E:4E:94:D5:17:9E:FD:BA:AD:89:10:F0:71"
       ]
     }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "jdpa.mapscz",
+      "sha256_cert_fingerprints": [
+        "0F:25:88:6D:FF:B6:75:C8:4A:E4:9E:64:A5:17:0D:C5:B5:B8:B2:9C:DD:A8:78:D0:01:0D:2F:20:4A:F3:69:7A",
+        "13:2B:48:B0:82:7C:07:8A:7E:CC:27:22:C5:73:C4:B9:F5:89:97:BB:93:9E:41:8E:9B:3E:F2:17:63:F3:A6:46",
+        "AD:2D:6C:A8:B5:94:FE:54:A3:AB:CF:BF:7B:DB:D1:F4:16:AF:DB:7E:4E:94:D5:17:9E:FD:BA:AD:89:10:F0:71"
+      ]
+    }
   }
 ]
