@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mapa</title>
+</head>
+<body>
+	<script type="text/javascript">
+		let para=atob(location.href.split('?')[1]);
+		para=JSON.parse(para);
+		location.href=`https://play.google.com/store/apps/details?id=${para.pack}`;
+		/*let par=location.href.split('?')[1];
+		if(par.indexOf('q=')!=-1){
+
+		}
+		if(par.indexOf('p=')!=-1){
+			let pack=par.split('p=')[1].split('&')[0];
+			location.href=`https://play.google.com/store/apps/details?id=${pack}`;
+		}*/
+	</script>
+</body>
+</html>
